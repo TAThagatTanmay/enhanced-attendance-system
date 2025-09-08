@@ -1,5 +1,7 @@
 # Enhanced Attendance System Requirements
 # Optimized for Render Free Tier Hosting
+setuptools>=65.0.0
+wheel>=0.37.0
 
 # Core Flask Framework
 Flask==2.3.3
