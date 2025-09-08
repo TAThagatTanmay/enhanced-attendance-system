@@ -14,6 +14,4 @@ face-recognition
 dlib
 python-multipart
 psutil
-scikit-learn
-matplotlib
-pandas
+
