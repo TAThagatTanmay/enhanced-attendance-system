@@ -1,9 +1,10 @@
-numpy>=1.21.0
-setuptools>=60.0.0
-wheel>=0.37.0
-python-dotenv>=0.19.0
-PyJWT>=2.4.0
-python-multipart>=0.0.5
-psutil>=5.9.0
-psycopg2-binary>=2.9.0
-opencv-python-headless>=4.5.0
+#!/bin/bash
+
+pip install numpy
+pip install setuptools
+pip install python-dotenv
+pip install PyJWT
+pip install python-multipart
+pip install psutil
+pip install psycopg2-binary
+pip install opencv-python-headless
