@@ -1,0 +1,26 @@
+# Enhanced Attendance System Requirements - FIXED VERSION
+# This version works on both local development and Render deployment
+
+# Build tools first (prevents setuptools issues)
+setuptools>=65.0.0
+wheel>=0.37.0
+
+# Core Flask Framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+Werkzeug==2.3.7
+gunicorn==21.2.0
+
+# Database
+psycopg2-binary==2.9.7
+
+# Basic image processing (lightweight alternatives)
+Pillow==10.0.1
+numpy==1.24.4
+
+# Authentication & utilities
+python-dotenv==1.0.0
+PyJWT==2.8.0
+
+# Note: Face recognition packages removed to prevent build failures
+# Can be added back later using Docker or alternative implementations
