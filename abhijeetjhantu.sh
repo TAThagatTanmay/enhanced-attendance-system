@@ -8,6 +8,4 @@ pip install face-recognition
 pip install dlib
 pip install python-multipart
 pip install psutil
-pip install scikit-learn
-pip install matplotlib
-pip install pandas
+
