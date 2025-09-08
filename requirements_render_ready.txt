@@ -10,8 +10,5 @@ numpy
 python-dotenv
 PyJWT
 opencv-python-headless
-face-recognition
-dlib
-python-multipart
-psutil
+
 
