@@ -1,0 +1,32 @@
+# Enhanced Attendance System Requirements
+# Optimized for Render Free Tier Hosting
+
+# Core Flask Framework
+Flask==2.3.3
+Flask-CORS==4.0.0
+Werkzeug==2.3.7
+gunicorn==21.2.0
+
+# Database
+psycopg2-binary==2.9.7
+
+# Face Recognition & Computer Vision
+opencv-python-headless==4.8.1.78
+face-recognition==1.3.0
+dlib==19.24.2
+numpy==1.24.4
+Pillow==10.0.1
+
+# Zoom Integration & Virtual Camera
+pyvirtualcam==0.10.2
+
+# Utilities
+python-dotenv==1.0.0
+PyJWT==2.8.0
+python-multipart==0.0.6
+psutil==5.9.6
+
+# Optional: For enhanced features
+# scikit-learn==1.3.2  # For ML-based analytics
+# matplotlib==3.7.3    # For chart generation
+# pandas==2.0.3        # For data analysis
